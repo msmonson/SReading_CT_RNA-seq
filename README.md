@@ -12,4 +12,13 @@ RNA-seq profiling was performed on 12 samples of turkey cecal tonsil from 4 expe
 - AviPro Megan Egg-vaccinated/*S*. Reading-challenged (AME<sub>OO</sub>/R)
 
  ## Table of Contents:
- 
+| Tasks | Scripts |
+| :--- | :--- |
+| Generate STAR genome indices | 00-Decomp_genome.sh; 00-STAR_buildgenome.sh |
+| Prepare raw fastq files | Content Cell  |
+| QC raw fastq files | Content Cell  |
+| Trim raw fastq files  | Content Cell  |
+| QC trimmed fastq files | Content Cell  |
+| Map reads to genome with STAR | Content Cell  |
+| Sort bam files by name | Content Cell  |
+| Generate read counts | Content Cell  |
